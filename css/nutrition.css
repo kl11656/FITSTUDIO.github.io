@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+   }
+
+.header{
+    background-color:aqua;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+}
+
+.navigations{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: orange;
+    height: 30px;
+}
+.one{
+    padding-left:6px;
+    width: 150px;
+    margin-left: 90%;
+    margin-top: 2%;
+    float: left;
+    font-size: 30px;
+}
+
+.big_img
+{
+  background-image: url('../assests/a.jpg');
+  width: 100%;
+  min-height:600px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.text_big{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    margin-left: 50px;
+    margin-top: 80px;  
+}
+.text_big p{
+    margin-top: 10px;
+    font-size:large;
+    color:whitesmoke;
+    text-align: justify;
+    line-height: 25px;
+}
+.s{
+    background-color: lemonchiffon;
+    width: 100%;
+    height:400px;
+}
+.s1{
+    background-color: black;
+    width: 100%;
+    height: 750px;
+    padding-left: 25%;
+}
+
+.lowfood h1
+{
+    font-size: 30px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.low_txt1{
+    position: relative;
+    top: 60px;
+    left: 45px;
+    width: 45%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size:16px;
+}
+
+.low_txt1 p
+{
+    line-height: 18px;
+    text-align: justify;
+}
+
+.food_items{
+    width: 100%;
+    height:auto;
+    background-color:white;
+}
+.s1 h1{
+    color: gold;
+    padding-left: 25%;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.s1 p{
+    font-size:20px;
+    padding-left: 10%;
+    color:white;
+    margin-bottom: 20px;
+}
+.food_items1{
+    width: 30%;
+    height: auto;
+    background-color:brown;
+    float: left;
+}
+.food_items1 h1{
+    margin-left: 25%;
+}
+.food_items2{
+    width: 70%;
+    height: auto;
+    background-color: rgb(104, 84, 84);
+    float: left;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
